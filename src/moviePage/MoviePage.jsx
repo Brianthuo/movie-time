@@ -29,7 +29,7 @@ const MoviePage = () => {
         <h1>{Info && Info.Actors}</h1> <br />
         <h1>{Info && Info.Genre}</h1> <br />
         <p>{Info && Info.Plot}</p> <br />
-        <h1>Rating: {Info && Info.imdbRating}</h1> <br />
+        <h1>Ratings: {Info && Info.imdbRating}</h1> <br />
         <h1>{Info && Info.Type0}</h1> <br />
         <h4>
         <Link to='/' className='link'> <AiOutlineArrowLeft/> Go back</Link>
