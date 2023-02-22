@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 1, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .sub-container{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        color: #fff;
+        
+
+        .info{
+            .link{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+}
